@@ -6,6 +6,11 @@ var status = "";
     img = loadImage("fruit_basket.jfif");
 }
 
+function draw()
+{
+    image(img, 0, 0, 640, 420);
+}
+
 function setup()
 {
     canvas = createCanvas(640, 420);
